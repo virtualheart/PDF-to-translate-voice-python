@@ -1,0 +1,6 @@
+gtts
+playsound
+tkinter
+TKinter
+translate
+PyPDF2==2.11.2
