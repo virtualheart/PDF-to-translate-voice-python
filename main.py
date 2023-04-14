@@ -1,6 +1,6 @@
 import gtts
 import os
-import playsound
+# import playsound
 import tkinter as tk 
 from tkinter import *
 from tkinter import ttk
@@ -98,10 +98,10 @@ def deshboard():
 	
 	        tts = gtts.gTTS(text=output, lang=cl)
 	        tts.save("eAudio.mp3")
-	        playsound.playsound("eAudio.mp3")
+	        # playsound.playsound("eAudio.mp3")
 	        pb.stop()
 	
-	        # os.system("cvlc eAudio.mp3 vlc://quit")
+	        os.system("cvlc eAudio.mp3 vlc://quit")
 		        
 	    # Create a File Explorer label
 	label_file_explorer = Label(root, text = "Select PDF File",width = 65, height = 1,)
