@@ -24,7 +24,9 @@ def deshboard():
 	root.resizable(False,False)
 	root.configure(bg="#305065")
 	
-	LANGUAGES = {'Tamil': 'ta', 'English': 'en','Hindi':'hi'}
+	# LANGUAGES = {'Tamil': 'ta', 'English': 'en','Hindi':'hi'}
+	file=open("./lib/lan.json","r")
+	LANGUAGES = file.read()
 	
 	label_selected = tk.Label(root, text="null")
 	a=tk.StringVar()
