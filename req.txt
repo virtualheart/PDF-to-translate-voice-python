@@ -1,6 +1,5 @@
 gtts
 playsound
-tkinter
-TKinter
+tk
 translate
 PyPDF2==2.11.2
